@@ -1,0 +1,9 @@
+spring:
+  cloud:
+    config:
+      uri: ${config.server:http://localhost:8888}
+  application:
+    name: service1
+  profiles:
+    active:
+      - dev
